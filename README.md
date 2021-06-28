@@ -5,13 +5,9 @@ An elasticsearch based analyzer to predict crypto market trades based on tweets
 # Cryptocurrency is extremely volatile
 Cryptocurrencies are extremely volatile. Recent market news has shown us how years of volatility in the market can be covered in a month of pricing movements in the cryptocurrency markets. Also, how these coins can massively fluctuate by tweets from influencers and celebrities. the primary channel of communication for cryptocurrencies. Many important news are relayed (retweeted) by thousands of user and can reach a very large audience. The goal of this analyzer is to visualize the correlation between cryptocurrencies' price in USD and a score based on the sentiment analysis of tweets, the number of followers of the user, the number of retweets and the number of likes.
 
-<img width="5467" alt="image" src="https://user-images.githubusercontent.com/47447202/123684892-a702a200-d86b-11eb-9929-279e6fcf2ebd.png">
-The Musk, the coin, the doge and the market
-
 
 # Analyser based on Elasticsearch to predicting crypto market behaviour with twitter sentiment analysis
 The integrative and modular system is based on (i) a Elasticsearch-based architecture which handles the large volume of incoming data in a persistent and fault tolerant way; (ii) an approach that supports sentiment analysis which can respond to large amounts of natural language processing queries in real time; and (iii) a predictive method grounded on online learning in which a model adapts its weights to cope with new prices and sentiments.
-<img width="2795" alt="image" src="https://user-images.githubusercontent.com/47447202/123685654-8c7cf880-d86c-11eb-8600-2a0decf7b34f.png">
 
 **Retrieve tweets** - Retrieve tweets related to a cryptocurrency in a time frame
 **Store and analyze** - Push the tweet data and also the market data to elasticsearch to analyze and find correlation between the two
